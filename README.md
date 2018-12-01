@@ -1,4 +1,4 @@
-# Encrypto
+# SECURE SMS
 
 Download The App :
 https://satyajiit.xyz/project-details.php?project=SECURE_SMS&type=apk
