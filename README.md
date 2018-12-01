@@ -1,7 +1,7 @@
 # Encrypto
 
 Download The App :
-https://satyajiit.xyz/project-details.php?project=Encrypto&type=apk
+https://satyajiit.xyz/project-details.php?project=SECURE_SMS&type=apk
 
 * A Stenography Project on Encryption and Decryption.
 * Hide Messages Inside Images.
