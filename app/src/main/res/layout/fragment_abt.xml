@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob">
+
+    </com.google.android.gms.ads.AdView>
+    <pl.droidsonroids.gif.GifTextView
+        android:id="@+id/test"
+        android:layout_width="64dp"
+android:layout_below="@id/adView"
+        android:layout_height="64dp"
+        android:background="@drawable/heart"
+        android:layout_centerInParent="true"
+        />
+    <android.support.v7.widget.CardView
+        android:id="@+id/crd"
+        android:layout_below="@id/test"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+android:layout_width="wrap_content"
+        app:cardCornerRadius="8dp"
+        >
+
+        <TextView
+            android:id="@+id/abt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="@string/info"/>
+
+
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_below="@id/crd"
+android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lnr"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+    android:id="@+id/contact"
+    android:layout_width="wrap_content"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_height="40dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:fontFamily="@font/prototype"
+        android:text="CONTACT ME"/>
+</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:id="@+id/vdo"
+        android:clickable="true"
+        android:layout_below="@id/crd"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_margin="10dp"
+        android:enabled="false"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/watch"
+            android:enabled="false"
+            android:layout_gravity="center"
+            android:padding="5dp"
+
+            android:fontFamily="@font/prototype"
+            android:text="WATCH AN AD"/>
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_below="@id/crd"
+            android:id="@+id/more"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:fontFamily="@font/prototype"
+                android:text="MORE..."/>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

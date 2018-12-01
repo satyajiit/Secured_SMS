@@ -14,6 +14,8 @@ https://satyajiit.xyz/project-details.php?project=SECURE_SMS&type=apk
 
 <img src="/Screenshots/ss3.png" height="583" width="350" />&nbsp;
 <img src="/Screenshots/ss4.png" height="583" width="350" />&nbsp;
+<img src="/Screenshots/ss5.png" height="583" width="350" />&nbsp;
+<img src="/Screenshots/ss6.png" height="583" width="350" />&nbsp;
 
 ## Information
 

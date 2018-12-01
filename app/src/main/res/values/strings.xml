@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SECURE SMS</string>
+    <string name="create">Message</string>
+    <string name="inbox">Inbox</string>
+    <string name="about">About</string>
+    <string name="wrt">Write Your Message : </string>
+    <string name="hint">Start typing your message here ...</string>
+    <string name="wrt2">Enter Phone number : </string>
+    <string name="hint2">Mobile number here...</string>
+    <string name="wrt3">Enter Password : </string>
+    <string name="hint3">Encrypted using this key...</string>
+    <string name="admob">BANNER AD ID</string>
+    <string name="id">APP Id ADMOB</string>
+    <string name="advdo">VDO AD ID</string>
+    <string name="info">Developed by SatyaJit Pradhan\nCopyright 2018\nPlease Consider watching a video ad or clicking some ads that will buy me a coffee ❤</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">SECURE SMS</string>
+    <string name="slide_1_desc">Send SMS to anyone in an encrypted format with a password.</string>
+
+    <string name="slide_2_title">Why to Secure?</string>
+    <string name="slide_2_desc">This is like an end to end security feature , no one except you or your receiver can intercept/read your messages on the Air.</string>
+
+    <string name="slide_3_title">Is it tough?</string>
+    <string name="slide_3_desc">It is the easiest task for any human. Just Write message , add a password , phone number and you are good to go!!</string>
+
+    <string name="slide_4_title">Lets go!</string>
+    <string name="slide_4_desc">You are ready to explore but please allow the permissions that will be asked on the next screen. Thank You!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+</resources>
