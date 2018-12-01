@@ -3,10 +3,10 @@
 Download The App :
 https://satyajiit.xyz/project-details.php?project=SECURE_SMS&type=apk
 
-* A Stenography Project on Encryption and Decryption.
-* Hide Messages Inside Images.
+* A Encryption Project on AES and Base64.
+* SMS Security.
 * Password Protection.
-* In-App Updation Feature
+* END to END Encryption
 * Easy To Use.
 
 <img src="/Screenshots/ss1.png" height="583" width="350" border="1px"/>&nbsp;
@@ -18,11 +18,11 @@ https://satyajiit.xyz/project-details.php?project=SECURE_SMS&type=apk
 ## Information
 
 * The Coding were not properly comment lined.
-* Used Php Mysql Database to store User and Password.
-* Uses Base64.
-* PHP and SQL files are not in the Repo , Ping me if You need them.
-* Tested the App on Android 7.0 and 8.1
-* Beautiful UI.
+* Used AES and Base64 as Algorithms.
+* Good UI.
+* Needs lot more changes.
+* Beta Phase.
+* Some Codes/Features removed in this source.
 * Very Simple App.
 
 
